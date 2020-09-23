@@ -12,7 +12,7 @@ class Warlock
 
 		Warlock();
 		Warlock(Warlock const &rhs);
-		Warlock & operator=(const Warlock &rhs);
+		Warlock & operator=(Warlock const &rhs);
 	
 	public:
 		Warlock(std::string const &name, std::string const &title);
