@@ -11,14 +11,16 @@ Warlock::~Warlock()
 	std::cout << this->name << ": My job here is done.\n";
 }
 
-std::string const &Warlock::getName(void) const
+std::string const &
+Warlock::getName(void) const
 {
-	return (this->name);
+	return (name);
 }
 
-std::string const &Warlock::getTitle(void) const
+std::string const &
+Warlock::getTitle(void) const
 {
-	return (this->title);
+	return (title);
 }
 
 void Warlock::setTitle(std::string const &title)
