@@ -3,7 +3,7 @@
 Warlock::Warlock(std::string const &name, std::string const &title)
 	:name(name), title(title)
 {
-	std::cout << this->name << ": What a boring day!\n";
+	std::cout << this->name << ": This looks like a boring day!\n";
 }
 
 Warlock::~Warlock()
@@ -11,14 +11,12 @@ Warlock::~Warlock()
 	std::cout << this->name << ": My job here is done.\n";
 }
 
-std::string const &
-Warlock::getName(void) const
+std::string const &Warlock::getName(void) const
 {
 	return (name);
 }
 
-std::string const &
-Warlock::getTitle(void) const
+std::string const &Warlock::getTitle(void) const
 {
 	return (title);
 }
