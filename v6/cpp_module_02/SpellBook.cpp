@@ -42,5 +42,5 @@ ASpell *Spellbook::generateSpell(std::string const &spellName) {
 		if ((*it)->getName() == spellName)
 			return *it;
 	}
-	return nullptr;
+	return NULL;
 }

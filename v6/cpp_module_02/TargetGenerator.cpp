@@ -51,5 +51,5 @@ ATarget *TargetGenerator::createTarget(std::string const & typeName) {
 		if ((*it)->getType() == typeName)
 			return *it;
 	}
-	return nullptr;
+	return NULL;
 }
